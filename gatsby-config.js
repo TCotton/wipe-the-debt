@@ -5,7 +5,16 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Istok Web:400,700']
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
