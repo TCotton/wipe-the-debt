@@ -1,0 +1,16 @@
+h1 {
+    @include font-calculator($baseFontFamily, 48px, 1);
+    font-weight: 600;
+    color: $header;
+}
+h2 {
+    @include font-calculator($baseFontFamily, 32px, 1);
+    line-height: 1em;
+}
+p {
+    @include font-calculator($baseFontFamily, 19px, 1);
+}
+
+p.footer {
+    @include font-calculator($baseFontFamily, 12px, 1);
+}

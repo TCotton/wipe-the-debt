@@ -1,0 +1,24 @@
+@media screen {
+
+    @import 'sass/reset';
+    @import 'sass/variables';
+    @import 'sass/mixins';
+    @import 'sass/wrapper';
+    @import 'sass/text';
+
+    body {
+        font-size: #{$baseFontSize};
+        font-family: $baseFontFamily;
+        line-height: #{$baseLineHeight}em;
+        background: $body;
+        color: $fallbackText;
+        padding: 0 10px;
+    }
+
+    html, body {
+        overflow-x: hidden;
+      }
+
+}
+
+@import 'sass/print';

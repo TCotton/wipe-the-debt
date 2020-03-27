@@ -1,0 +1,39 @@
+.wrapper {
+    max-width: 960px;
+    margin: 50px auto;
+}
+
+.full-width-bar {
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.50rem 9999rem;
+    background: $topBackground;
+    position: relative;
+    top: -50px;
+    box-shadow: 1px 1px white;
+}
+
+a:link {
+	color: $link;
+}
+a:visited {
+	color: $linkVisited;
+}
+a:focus {
+	color: $linkHover;
+}
+a:hover {
+	color: $linkHover;
+    text-decoration: none;
+    background: white;
+    border-top: 1px yellow solid;
+    border-bottom: 1px yellow solid;
+    padding: 1px 0;
+}
+a:active {
+	color: $linkActive;
+}
+
+footer {
+    text-align: right;
+}
